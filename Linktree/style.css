@@ -1,0 +1,74 @@
+/*
+background-image: url(./assets/2927262.jpg);
+background-repeat: no-repeat;
+background-position: top center; 
+background-size: cover;
+*/
+/* sequencia do background
+background -> color -> image -> repeat -> position/size 
+
+então exemplo fica*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+body{
+
+background: url(./assets/2927262.jpg) no-repeat top center/cover;
+
+
+}
+
+
+body * {
+
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container {
+    border: 1px solid red;
+   /* height: 712px;*/
+    width: 360px;
+    margin: auto;
+    padding-top: 56px;
+    /*display: block;  ocupa toda a largura
+    margin auto não funciona em IMG, pois é inline.
+    */
+}
+
+#profile {
+    /*pra alinhar texto e foto usar essa traia aqui */
+    text-align: center;
+    padding: 24px;
+
+
+}
+
+
+
+#profile img {
+    
+    width: 112px;
+    
+    /*altura não precisa definir pois ele acompanha as imagens, 
+    altura tem que ser fluida.*/
+
+
+}
+
+#profile p {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-top: 8px;
+
+
+    
+}
